@@ -23,10 +23,10 @@ Simply copy and paste these lines where you want to show custom widget content.
 
 == Installation ==
 = How to install Custom Widget Area =
-1. Download Custom Upload Plugin.  
+1. Download Custom Widget Area.  
 2. Upload it into your plugins directory from Plugin Add Feature or FTP.  
 3. It will create a directory /wp-content/plugins/custom-widget-area/  
-4. Active Custom Upload Plugin.  
+4. Active Custom Widget Area Plugin.  
 
 == Frequently Asked Questions ==
 Que. How can we use it in Header Section    
