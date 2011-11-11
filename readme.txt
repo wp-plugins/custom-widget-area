@@ -17,9 +17,16 @@ License: GPLv2 or later
 A simple plugin to create custom widget area.  
 Simply copy and paste these lines where you want to show custom widget content.  
   
- <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Widget Area')) : ?>  
+ After installing and activating this plugin, it will create Header Widget Area.  
+     Assign any widget in This Header Widget Area Plugin.  
+	 
+ Simply copy and paste these lines within php tag, where you want to show custom widget content.  
+  
+ if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Widget Area')) : 
  
- <?php endif; ?>
+ endif;
+ 
+ You will need to write some css for it. That's it.
 
 == Installation ==
 = How to install Custom Widget Area =
@@ -28,16 +35,27 @@ Simply copy and paste these lines where you want to show custom widget content.
 3. It will create a directory /wp-content/plugins/custom-widget-area/  
 4. Active Custom Widget Area Plugin.  
 
+After installing and activating this plugin, it will create Header Widget Area.  
+     Assign any widget in This Header Widget Area Plugin.  
+	 
+ Simply copy and paste these lines within php tag, where you want to show custom widget content.  
+  
+ if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Widget Area')) : 
+ 
+ endif;
+ 
+ You will need to write some css for it. That's it.
+
 == Frequently Asked Questions ==
 Que. How can we use it in Header Section    
 Ans. After installing and activating this plugin, it will create Header Widget Area.  
      Assign any widget in This Header Widget Area Plugin.  
 	 
- Simply copy and paste these lines where you want to show custom widget content.  
+ Simply copy and paste these lines within php tag, where you want to show custom widget content.  
   
- <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Widget Area')) : ?>  
+ if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Widget Area')) : 
  
- <?php endif; ?>
+ endif;
  
  You will need to write some css for it. That's it.
 
